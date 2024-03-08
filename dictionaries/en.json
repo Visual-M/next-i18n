@@ -12,5 +12,8 @@
       "title": "About Us",
       "description": "This is the about page"
     }
+  },
+  "cta": {
+    "label": "Click Me!"
   }
 }

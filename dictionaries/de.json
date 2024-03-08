@@ -12,5 +12,8 @@
       "title": "Über uns",
       "description": "Dies ist die About-Seite"
     }
+  },
+  "cta": {
+    "label": "Klick mich!"
   }
 }
