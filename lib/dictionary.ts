@@ -1,9 +1,21 @@
-import 'server-only'
-import type { Locale } from '@/i18n.config'
+// lib/dictionary.ts
 
-const dictionaries = {
+import { Locale } from '@/i18n.config'
+import type { Navigation } from '@/types/dictionary'
+
+// Define dictionaries as a Record where each key maps to a function returning a Promise
+const dictionaries: Record<Locale, () => Promise<any>> = {
+  az: () => import('@/dictionaries/az.json').then(module => module.default),
   en: () => import('@/dictionaries/en.json').then(module => module.default),
-  de: () => import('@/dictionaries/de.json').then(module => module.default)
+  ru: () => import('@/dictionaries/ru.json').then(module => module.default)
 }
 
-export const getDictionary = async (locale: Locale) => dictionaries[locale]()
+// export const getDictionary = async (locale: Locale) => {
+//   if (!dictionaries[locale]) {
+//     throw new Error(`Dictionary for ${locale} is not available`)
+//   }
+
+//   return dictionaries[locale]()
+// }
+
+export const getDictionary = async (locale: Locale): Promise<Navigation> => dictionaries[locale]()

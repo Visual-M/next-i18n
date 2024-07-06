@@ -1,34 +1,20 @@
-'use client'
+// app/[lang]/components/LocaleSwitcher.tsx
 
 import Link from 'next/link'
-import { usePathname } from 'next/navigation'
-
 import { i18n } from '@/i18n.config'
 
 export default function LocaleSwitcher() {
-  const pathName = usePathname()
-
-  const redirectedPathName = (locale: string) => {
-    if (!pathName) return '/'
-    const segments = pathName.split('/')
-    segments[1] = locale
-    return segments.join('/')
-  }
-
   return (
-    <ul className='flex gap-x-3'>
-      {i18n.locales.map(locale => {
-        return (
-          <li key={locale}>
-            <Link
-              href={redirectedPathName(locale)}
-              className='rounded-md border bg-black px-3 py-2 text-white'
-            >
-              {locale}
-            </Link>
-          </li>
-        )
-      })}
-    </ul>
+    <div className='flex justify-end gap-2 uppercase text-black lg:gap-4'>
+      {i18n.locales.map(locale => (
+        <Link
+          key={locale}
+          className='p-1 transition-colors duration-300 ease-in-out hover:bg-black hover:text-white lg:p-3'
+          href={`/${locale}`} // Update the href to navigate to the locale path
+        >
+          {locale}
+        </Link>
+      ))}
+    </div>
   )
 }

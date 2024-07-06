@@ -1,6 +1,10 @@
-export const i18n = {
-  defaultLocale: 'en',
-  locales: ['en', 'de']
-} as const
+// root/i18n.config.ts
 
-export type Locale = (typeof i18n)['locales'][number]
+export type Locale = 'az' | 'en' | 'ru'
+
+export const i18n = {
+  locales: ['az', 'en', 'ru'],
+  defaultLocale: 'az' // Set 'az' as the default locale
+}
+
+export default i18n

@@ -1,0 +1,287 @@
+{
+  "home": {
+    "id": 1,
+    "title": "Главная Cтраница",
+    "url": "/"
+  },
+  "company": {
+    "id": 1,
+    "title": "Компания",
+    "categories": [
+      {
+        "id": 101,
+        "title": "О нас",
+        "url": "/company/about",
+        "image": "images/about_us.jpg",
+        "description": "Информация о компании."
+      },
+      {
+        "id": 102,
+        "title": "Сертификаты",
+        "url": "/company/certificates",
+        "image": "images/certificates.jpg",
+        "description": "Наши сертификаты."
+      },
+      {
+        "id": 103,
+        "title": "Наша история",
+        "url": "/company/history",
+        "image": "images/history.jpg",
+        "description": "История компании."
+      }
+    ]
+  },
+  "products": {
+    "id": 2,
+    "title": "Продукция",
+    "categories": [
+      {
+        "id": 201,
+        "title": "Сталь",
+        "url": "/products/steel",
+        "description": "Стальная продукция.",
+        "subcategories": [
+          {
+            "id": 501,
+            "title": "Стальные трубы",
+            "url": "/products/steel/pipes",
+            "image": "images/steel_pipes.jpg",
+            "altersubcategories": [
+              {
+                "id": 6001,
+                "title": "Сварные стальные трубы",
+                "url": "/products/steel/pipes/welded",
+                "image": "images/welded_steel_pipes.jpg",
+                "description": "Сварные стальные трубы."
+              },
+              {
+                "id": 6002,
+                "title": "Спиральные стальные трубы",
+                "url": "/products/steel/pipes/spiral",
+                "image": "images/spiral_steel_pipes.jpg",
+                "description": "Спиральные стальные трубы."
+              },
+              {
+                "id": 6003,
+                "title": "Бесшовные стальные трубы",
+                "url": "/products/steel/pipes/seamless",
+                "image": "images/seamless_steel_pipes.jpg",
+                "description": "Бесшовные стальные трубы."
+              },
+              {
+                "id": 6004,
+                "title": "Чугунные трубы",
+                "url": "/products/steel/pipes/ferrous",
+                "image": "images/ferrous_pipes.jpg",
+                "description": "Чугунные трубы."
+              },
+              {
+                "id": 6005,
+                "title": "Гальванизированные трубы",
+                "url": "/products/steel/pipes/galvanised",
+                "image": "images/galvanised_pipes.jpg",
+                "description": "Гальванизированные трубы."
+              },
+              {
+                "id": 6006,
+                "title": "Профильные стальные трубы",
+                "url": "/products/steel/pipes/profile",
+                "image": "images/profile_pipes.jpg",
+                "description": "Профильные стальные трубы."
+              },
+              {
+                "id": 6007,
+                "title": "Прямоугольные профильные трубы",
+                "url": "/products/steel/pipes/rectangular",
+                "image": "images/rectangular_profile_pipes.jpg",
+                "description": "Прямоугольные профильные трубы."
+              }
+            ]
+          },
+          {
+            "id": 502,
+            "title": "Стальные изделия",
+            "url": "/products/steel/steel_products",
+            "image": "images/steel_products.jpg",
+            "altersubcategories": [
+              {
+                "id": 6008,
+                "title": "H-балка",
+                "url": "/products/steel/steel_products/h-beam",
+                "image": "images/h_beam.jpg",
+                "description": "H-балка."
+              },
+              {
+                "id": 6009,
+                "title": "Уголки",
+                "url": "/products/steel/steel_products/angles",
+                "image": "images/angles.jpg",
+                "description": "Уголки."
+              },
+              {
+                "id": 6010,
+                "title": "Стальной канал",
+                "url": "/products/steel/steel_products/channel",
+                "image": "images/steel_channel.jpg",
+                "description": "Стальной канал."
+              },
+              {
+                "id": 6011,
+                "title": "Стальная арматура",
+                "url": "/products/steel/steel_products/armature",
+                "image": "images/steel_armature.jpg",
+                "description": "Стальная арматура."
+              },
+              {
+                "id": 6012,
+                "title": "Круглые стальные заготовки",
+                "url": "/products/steel/steel_products/round_billets",
+                "image": "images/round_steel_billets.jpg",
+                "description": "Круглые стальные заготовки."
+              },
+              {
+                "id": 6013,
+                "title": "Все металлические листы",
+                "url": "/products/steel/steel_products/sheets",
+                "image": "images/all_metal_sheets.jpg",
+                "description": "Все металлические листы."
+              },
+              {
+                "id": 6014,
+                "title": "Гальванизированная проволока",
+                "url": "/products/steel/steel_products/galvanised_wire",
+                "image": "images/galvanised_wire.jpg",
+                "description": "Гальванизированная проволока."
+              },
+              {
+                "id": 6015,
+                "title": "Проволочный пруток",
+                "url": "/products/steel/steel_products/wire_rod",
+                "image": "images/wire_rod.jpg",
+                "description": "Проволочный пруток."
+              },
+              {
+                "id": 6016,
+                "title": "Фланец",
+                "url": "/products/steel/steel_products/flange",
+                "image": "images/flange.jpg",
+                "description": "Фланец."
+              }
+            ]
+          },
+          {
+            "id": 503,
+            "title": "Связующие элементы",
+            "url": "/products/steel/connecting_elements",
+            "image": "images/connecting_elements.jpg",
+            "altersubcategories": [
+              {
+                "id": 6017,
+                "title": "90° Стальная гибка",
+                "url": "/products/steel/connecting_elements/bend_90",
+                "image": "images/steel_bend_90.jpg",
+                "description": "90° Стальная гибка."
+              },
+              {
+                "id": 6018,
+                "title": "Стальной адаптер",
+                "url": "/products/steel/connecting_elements/adapter",
+                "image": "images/steel_adapter.jpg",
+                "description": "Стальной адаптер."
+              },
+              {
+                "id": 6019,
+                "title": "Т-образный элемент",
+                "url": "/products/steel/connecting_elements/t_piece",
+                "image": "images/t_piece.jpg",
+                "description": "Т-образный элемент."
+              },
+              {
+                "id": 6020,
+                "title": "Стальная пробка",
+                "url": "/products/steel/connecting_elements/plug",
+                "image": "images/steel_plug.jpg",
+                "description": "Стальная пробка."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 202,
+        "title": "Пластик",
+        "url": "/products/plastic",
+        "description": "Пластиковая продукция.",
+        "subcategories": [
+          {
+            "id": 504,
+            "title": "Полипропиленовые трубы",
+            "url": "/products/plastic/polypropylene_pipes",
+            "image": "images/polypropylene_pipes.jpg",
+            "altersubcategories": [
+              {
+                "id": 6021,
+                "title": "Волоконные трубы",
+                "url": "/products/plastic/polypropylene_pipes/fiber",
+                "image": "images/fiber_pipes.jpg",
+                "description": "Волоконные трубы."
+              },
+              {
+                "id": 6022,
+                "title": "Гибкие пластиковые трубы (Рулонный) 10, 16 АТМ",
+                "url": "/products/plastic/polypropylene_pipes/flexible",
+                "image": "images/flexible_plastic_pipes.jpg",
+                "description": "Гибкие пластиковые трубы (Рулонный) 10, 16 АТМ."
+              }
+            ]
+          },
+          {
+            "id": 505,
+            "title": "Полиэтиленовые трубы",
+            "url": "/products/plastic/polyethylene_pipes",
+            "image": "images/polyethylene_pipes.jpg",
+            "altersubcategories": [
+              {
+                "id": 6023,
+                "title": "Пластиковые полиэтиленовые трубы",
+                "url": "/products/plastic/polyethylene_pipes/plastic",
+                "image": "images/plastic_polyethylene_pipes.jpg",
+                "description": "Пластиковые полиэтиленовые трубы."
+              },
+              {
+                "id": 6024,
+                "title": "Дизайн дренажные трубы",
+                "url": "/products/plastic/polyethylene_pipes/design",
+                "image": "images/design_drainage_pipes.jpg",
+                "description": "Дизайн дренажные трубы."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "news": {
+    "id": 4,
+    "title": "Новости",
+    "url": "/news",
+    "description": "Последние новости.",
+    "image": "images/news.jpg"
+  },
+  "contacts": {
+    "id": 3,
+    "title": "Контакты",
+    "url": "/contacts",
+    "description": "Свяжитесь с нами.",
+    "image": "images/contact.jpg",
+    "address": "Ходжасанский путь, Баку",
+    "phone": "+1234567890",
+    "email": "info@example.com",
+    "facebook": "https://www.facebook.com/example",
+    "instagram": "https://www.instagram.com/example",
+    "location": "Адрес",
+    "telephone": "Телефон",
+    "mail": "Эл. почта",
+    "paragraph": "Настоящий азербайджанский бренд с 1997 года"
+  }
+}
