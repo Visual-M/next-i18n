@@ -176,7 +176,7 @@ const Navbar: React.FC<Props> = ({ lang }) => {
         className={`w-full flex-col whitespace-nowrap ${isMenuOpen ? 'flex' : 'hidden'} md:flex md:flex-row`}
       >
         <div className='md:hidden'>
-          {/* <LocaleSwitcher /> */}
+          <LocaleSwitcher />
         </div>
 
         {renderNavItem(navigation.home.title, navigation.home.url)}

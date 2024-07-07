@@ -1,4 +1,4 @@
-// lib/dictionary.ts
+// root/lib/dictionary.ts
 
 import { Locale } from '@/i18n.config'
 import type { Navigation } from '@/types/dictionary'
@@ -10,12 +10,5 @@ const dictionaries: Record<Locale, () => Promise<any>> = {
   ru: () => import('@/dictionaries/ru.json').then(module => module.default)
 }
 
-// export const getDictionary = async (locale: Locale) => {
-//   if (!dictionaries[locale]) {
-//     throw new Error(`Dictionary for ${locale} is not available`)
-//   }
-
-//   return dictionaries[locale]()
-// }
-
-export const getDictionary = async (locale: Locale): Promise<Navigation> => dictionaries[locale]()
+export const getDictionary = async (locale: Locale): Promise<Navigation> =>
+  dictionaries[locale]()

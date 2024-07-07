@@ -9,7 +9,7 @@ export default function LocaleSwitcher() {
       {i18n.locales.map(locale => (
         <Link
           key={locale}
-          className='p-1 transition-colors duration-300 ease-in-out hover:bg-black hover:text-white lg:p-3'
+          className='p-1 font-bold transition-colors duration-300 ease-in-out hover:bg-black hover:text-white lg:p-3'
           href={`/${locale}`} // Update the href to navigate to the locale path
         >
           {locale}
