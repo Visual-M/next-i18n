@@ -279,9 +279,10 @@
     "email": "info@example.com",
     "facebook": "https://www.facebook.com/example",
     "instagram": "https://www.instagram.com/example",
-    "location":"Ünvan",
-    "telephone":"Telefon",
-    "mail":"E-poçt",
-    "paragraph":"1997-ci ildən fəaliyyət göstərən əsl Azərbaycan brendi"
+    "location": "Ünvan",
+    "telephone": "Telefon",
+    "mail": "E-poçt",
+    "paragraph": "1997-ci ildən fəaliyyət göstərən əsl Azərbaycan brendi",
+    "rights": "SDMetal. Bütün hüquqlar qorunur."
   }
 }

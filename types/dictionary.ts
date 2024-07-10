@@ -68,5 +68,6 @@ export type Navigation = {
     telephone:string
     mail:string
     paragraph:string
+    rights: string
   }
 }

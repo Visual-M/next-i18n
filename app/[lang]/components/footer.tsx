@@ -135,7 +135,7 @@ const Footer: React.FC<Props> = ({ lang }) => {
 
       <div className='container mx-auto'>
         <p className='text-sm text-white'>
-          © {currentYear} SDMetal. All rights reserved.
+          © {currentYear} {navigation.contacts.rights}
         </p>
       </div>
     </footer>
