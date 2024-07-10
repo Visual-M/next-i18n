@@ -90,10 +90,10 @@ const Footer: React.FC<Props> = ({ lang }) => {
   return (
     <footer className='bg-black py-4 text-center md:flex-row'>
       <div className='container mx-auto flex flex-col p-4 text-left text-white md:flex-row md:justify-between'>
-        <div>
+        <Link href='/'>
           <Image className='w-40' src={whiteLogo} alt='logo' />
           <p>{navigation.contacts.paragraph}</p>
-        </div>
+        </Link>
 
         <div className='mt-8 md:mt-0'>
           <span className='font-semibold uppercase'>
