@@ -11,21 +11,21 @@
       {
         "id": 101,
         "title": "Haqqımızda",
-        "url": "/company/about",
+        "url": "/about",
         "image": "images/about_us.jpg",
         "description": "Şirkət haqqında məlumat."
       },
       {
         "id": 102,
         "title": "Sertifikatlar",
-        "url": "/company/certificates",
+        "url": "/certificates",
         "image": "images/certificates.jpg",
         "description": "Bizim sertifikatlar."
       },
       {
         "id": 103,
         "title": "Tariximiz",
-        "url": "/company/history",
+        "url": "/history",
         "image": "images/history.jpg",
         "description": "Şirkət tarixi."
       }
@@ -38,61 +38,61 @@
       {
         "id": 201,
         "title": "Dəmir",
-        "url": "/products/steel",
+        "url": "/steel",
         "description": "Dəmir məhsulları.",
         "subcategories": [
           {
             "id": 501,
             "title": "Dəmir borular",
-            "url": "/products/steel/pipes",
+            "url": "/steel/steel_pipes",
             "image": "images/steel_pipes.jpg",
             "altersubcategories": [
               {
                 "id": 6001,
                 "title": "Qaynaq dəmir boruları",
-                "url": "/products/steel/pipes/welded",
+                "url": "/steel/pipes/welded",
                 "image": "images/welded_steel_pipes.jpg",
                 "description": "Qaynaq dəmir boruları."
               },
               {
                 "id": 6002,
                 "title": "Spiral dəmir boruları",
-                "url": "/products/steel/pipes/spiral",
+                "url": "/steel/pipes/spiral",
                 "image": "images/spiral_steel_pipes.jpg",
                 "description": "Spiral dəmir boruları."
               },
               {
                 "id": 6003,
                 "title": "Səmərəli dəmir boruları",
-                "url": "/products/steel/pipes/seamless",
+                "url": "/steel/pipes/seamless",
                 "image": "images/seamless_steel_pipes.jpg",
                 "description": "Səmərəli dəmir boruları."
               },
               {
                 "id": 6004,
                 "title": "Dəmir borular",
-                "url": "/products/steel/pipes/ferrous",
+                "url": "/steel/pipes/ferrous",
                 "image": "images/ferrous_pipes.jpg",
                 "description": "Dəmir borular."
               },
               {
                 "id": 6005,
                 "title": "Galvaniz dəmir boruları",
-                "url": "/products/steel/pipes/galvanised",
+                "url": "/steel/pipes/galvanised",
                 "image": "images/galvanised_pipes.jpg",
                 "description": "Galvaniz dəmir boruları."
               },
               {
                 "id": 6006,
                 "title": "Profil dəmir boruları",
-                "url": "/products/steel/pipes/profile",
+                "url": "/steel/pipes/profile",
                 "image": "images/profile_pipes.jpg",
                 "description": "Profil dəmir boruları."
               },
               {
                 "id": 6007,
                 "title": "Dikdörtgen profil boruları",
-                "url": "/products/steel/pipes/rectangular",
+                "url": "/steel/pipes/rectangular",
                 "image": "images/rectangular_profile_pipes.jpg",
                 "description": "Dikdörtgen profil boruları."
               }
@@ -101,69 +101,69 @@
           {
             "id": 502,
             "title": "Dəmir məhsulları",
-            "url": "/products/steel/steel_products",
+            "url": "/steel/steel_products",
             "image": "images/steel_products.jpg",
             "altersubcategories": [
               {
                 "id": 6008,
                 "title": "H-Bim",
-                "url": "/products/steel/steel_products/h-beam",
+                "url": "/steel/steel_products/h-beam",
                 "image": "images/h_beam.jpg",
                 "description": "H-Bim."
               },
               {
                 "id": 6009,
                 "title": "Künc",
-                "url": "/products/steel/steel_products/angles",
+                "url": "/steel/steel_products/angles",
                 "image": "images/angles.jpg",
                 "description": "Künc."
               },
               {
                 "id": 6010,
                 "title": "Dəmir kanal",
-                "url": "/products/steel/steel_products/channel",
+                "url": "/steel/steel_products/channel",
                 "image": "images/steel_channel.jpg",
                 "description": "Dəmir kanal."
               },
               {
                 "id": 6011,
                 "title": "Dəmir armatura",
-                "url": "/products/steel/steel_products/armature",
+                "url": "/steel/steel_products/armature",
                 "image": "images/steel_armature.jpg",
                 "description": "Dəmir armatura."
               },
               {
                 "id": 6012,
                 "title": "Dairəvi dəmir göbələkləri",
-                "url": "/products/steel/steel_products/round_billets",
+                "url": "/steel/steel_products/round_billets",
                 "image": "images/round_steel_billets.jpg",
                 "description": "Dairəvi dəmir göbələkləri."
               },
               {
                 "id": 6013,
                 "title": "Bütün metall levhalar",
-                "url": "/products/steel/steel_products/sheets",
+                "url": "/steel/steel_products/sheets",
                 "image": "images/all_metal_sheets.jpg",
                 "description": "Bütün metall levhalar."
               },
               {
                 "id": 6014,
                 "title": "Galvaniz tərəvəz",
-                "url": "/products/steel/steel_products/galvanised_wire",
+                "url": "/steel/steel_products/galvanised_wire",
                 "image": "images/galvanised_wire.jpg",
                 "description": "Galvaniz tərəvəz."
               },
               {
                 "id": 6015,
                 "title": "Tərəvəz çubuğu",
-                "url": "/products/steel/steel_products/wire_rod",
+                "url": "/steel/steel_products/wire_rod",
                 "image": "images/wire_rod.jpg",
                 "description": "Tərəvəz çubuğu."
               },
               {
                 "id": 6016,
                 "title": "Flanş",
-                "url": "/products/steel/steel_products/flange",
+                "url": "/steel/steel_products/flange",
                 "image": "images/flange.jpg",
                 "description": "Flanş."
               }
@@ -172,34 +172,34 @@
           {
             "id": 503,
             "title": "Əlaqəli elementlər",
-            "url": "/products/steel/connecting_elements",
+            "url": "/steel/connecting_elements",
             "image": "images/connecting_elements.jpg",
             "altersubcategories": [
               {
                 "id": 6017,
                 "title": "90° Dəmir bükmə",
-                "url": "/products/steel/connecting_elements/bend_90",
+                "url": "/steel/connecting_elements/bend_90",
                 "image": "images/steel_bend_90.jpg",
                 "description": "90° Dəmir bükmə."
               },
               {
                 "id": 6018,
                 "title": "Dəmir adaptər",
-                "url": "/products/steel/connecting_elements/adapter",
+                "url": "/steel/connecting_elements/adapter",
                 "image": "images/steel_adapter.jpg",
                 "description": "Dəmir adaptər."
               },
               {
                 "id": 6019,
                 "title": "T-parça",
-                "url": "/products/steel/connecting_elements/t_piece",
+                "url": "/steel/connecting_elements/t_piece",
                 "image": "images/t_piece.jpg",
                 "description": "T-parça."
               },
               {
                 "id": 6020,
                 "title": "Dəmir bağlantı",
-                "url": "/products/steel/connecting_elements/plug",
+                "url": "/steel/connecting_elements/plug",
                 "image": "images/steel_plug.jpg",
                 "description": "Dəmir bağlantı."
               }
@@ -210,26 +210,26 @@
       {
         "id": 202,
         "title": "Plastik",
-        "url": "/products/plastic",
+        "url": "/plastic",
         "description": "Plastik məhsulları.",
         "subcategories": [
           {
             "id": 504,
             "title": "Polipropilen boruları",
-            "url": "/products/plastic/polypropylene_pipes",
+            "url": "/plastic/polypropylene_pipes",
             "image": "images/polypropylene_pipes.jpg",
             "altersubcategories": [
               {
                 "id": 6021,
                 "title": "Fiber boruları",
-                "url": "/products/plastic/polypropylene_pipes/fiber",
+                "url": "/plastic/polypropylene_pipes/fiber",
                 "image": "images/fiber_pipes.jpg",
                 "description": "Fiber boruları."
               },
               {
                 "id": 6022,
                 "title": "Fleksib plastik boruları (Rol edilmiş) 10, 16 ATM",
-                "url": "/products/plastic/polypropylene_pipes/flexible",
+                "url": "/plastic/polypropylene_pipes/flexible",
                 "image": "images/flexible_plastic_pipes.jpg",
                 "description": "Fleksib plastik boruları (Rol edilmiş) 10, 16 ATM."
               }
@@ -238,20 +238,20 @@
           {
             "id": 505,
             "title": "Polietilen boruları",
-            "url": "/products/plastic/polyethylene_pipes",
+            "url": "/plastic/polyethylene_pipes",
             "image": "images/polyethylene_pipes.jpg",
             "altersubcategories": [
               {
                 "id": 6023,
                 "title": "Plastik polietilen boruları",
-                "url": "/products/plastic/polyethylene_pipes/plastic",
+                "url": "/plastic/polyethylene_pipes/plastic",
                 "image": "images/plastic_polyethylene_pipes.jpg",
                 "description": "Plastik polietilen boruları."
               },
               {
                 "id": 6024,
                 "title": "Dizayn drenaj boruları",
-                "url": "/products/plastic/polyethylene_pipes/design",
+                "url": "/plastic/polyethylene_pipes/design",
                 "image": "images/design_drainage_pipes.jpg",
                 "description": "Dizayn drenaj boruları."
               }
