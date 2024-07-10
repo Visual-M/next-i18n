@@ -8,7 +8,9 @@ import { Locale } from '@/i18n.config'
 import { getDictionary } from '@/lib/dictionary'
 import { Navigation, Category } from '@/types/dictionary' // Adjust types as per your structure
 import whiteLogo from '@/public/images/logoWhite.svg' // Adjust path to your logo
-import { FaFacebookSquare, FaInstagram } from 'react-icons/fa'
+import { FaFacebookSquare, FaInstagram, FaPhone } from 'react-icons/fa'
+import { IoLocationSharp } from 'react-icons/io5'
+import { MdEmail } from 'react-icons/md'
 
 interface Props {
   lang: Locale
@@ -105,16 +107,28 @@ const Footer: React.FC<Props> = ({ lang }) => {
           </span>
           {renderCategories(navigation.products.categories)}
         </div>
-        <div className=''>
-          <div>
-            <span className='font-semibold uppercase'>
-              {navigation.contacts.title}
+        <div className='flex flex-col'>
+          <span className='font-semibold uppercase'>
+            {navigation.contacts.title}
+          </span>
+          <p className='flex flex-row items-center py-1'>
+            <span className='mr-2'>
+              <IoLocationSharp />
             </span>
-            <p className='py-1'>{navigation.contacts.address}</p>
-            <p className='py-1'>{navigation.contacts.phone}</p>
-            <p className='py-1'>{navigation.contacts.email}</p>
-          </div>
-          {/* Add social media links/icons */}
+            {navigation.contacts.address}
+          </p>
+          <p className='flex flex-row items-center py-1'>
+            <span className='mr-2'>
+              <FaPhone />
+            </span>
+            {navigation.contacts.phone}
+          </p>
+          <p className='flex flex-row items-center py-1'>
+            <span className='mr-2'>
+              <MdEmail />
+            </span>
+            {navigation.contacts.email}
+          </p>{' '}
           {renderSocialLinks()}
         </div>
       </div>
