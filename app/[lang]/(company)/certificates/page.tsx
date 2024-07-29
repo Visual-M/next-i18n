@@ -1,6 +1,6 @@
 // app/[lang]/company/certificates/page.tsx
 import { getDictionary } from '@/lib/dictionary'
-import CompanyPage from '@/app/[lang]/components/companyPage'
+// import CompanyPage from '@/app/[lang]/components/companyPage'
 import { Locale } from '@/i18n.config'
 import { Category } from '@/types/dictionary'
 

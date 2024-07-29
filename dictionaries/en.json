@@ -12,21 +12,21 @@
         "id": 101,
         "title": "About us",
         "url": "/about",
-        "image": "images/about_us.jpg",
+        "image": "@/public/images/about_us.jpg",
         "description": "Information about the company."
       },
       {
         "id": 102,
         "title": "Certificates",
         "url": "/certificates",
-        "image": "images/certificates.jpg",
+        "image": "@/public/images/certificates.jpg",
         "description": "Our certificates."
       },
       {
         "id": 103,
         "title": "Our History",
         "url": "/history",
-        "image": "images/history.jpg",
+        "image": "@/public/images/history.jpg",
         "description": "Company history."
       }
     ]
@@ -45,55 +45,55 @@
             "id": 501,
             "title": "Steel Pipes",
             "url": "/steel/steel_pipes",
-            "image": "images/steel_pipes.jpg",
+            "image": "@/public/images/steel_pipes.jpg",
             "altersubcategories": [
               {
                 "id": 6001,
                 "title": "Welded Steel Pipes",
                 "url": "/steel/pipes/welded",
-                "image": "images/welded_steel_pipes.jpg",
+                "image": "@/public/images/welded_steel_pipes.jpg",
                 "description": "Welded steel pipes."
               },
               {
                 "id": 6002,
                 "title": "Spiral Steel Pipes",
                 "url": "/steel/pipes/spiral",
-                "image": "images/spiral_steel_pipes.jpg",
+                "image": "@/public/images/spiral_steel_pipes.jpg",
                 "description": "Spiral steel pipes."
               },
               {
                 "id": 6003,
                 "title": "Seamless Steel Pipes",
                 "url": "/steel/pipes/seamless",
-                "image": "images/seamless_steel_pipes.jpg",
+                "image": "@/public/images/seamless_steel_pipes.jpg",
                 "description": "Seamless steel pipes."
               },
               {
                 "id": 6004,
                 "title": "Ferrous Pipes",
                 "url": "/steel/pipes/ferrous",
-                "image": "images/ferrous_pipes.jpg",
+                "image": "@/public/images/ferrous_pipes.jpg",
                 "description": "Ferrous pipes."
               },
               {
                 "id": 6005,
                 "title": "Galvanised Pipes",
                 "url": "/steel/pipes/galvanised",
-                "image": "images/galvanised_pipes.jpg",
+                "image": "@/public/images/galvanised_pipes.jpg",
                 "description": "Galvanised pipes."
               },
               {
                 "id": 6006,
                 "title": "Profile Steel Pipes",
                 "url": "/steel/pipes/profile",
-                "image": "images/profile_pipes.jpg",
+                "image": "@/public/images/profile_pipes.jpg",
                 "description": "Profile steel pipes."
               },
               {
                 "id": 6007,
                 "title": "Rectangular Profile Pipes",
                 "url": "/steel/pipes/rectangular",
-                "image": "images/rectangular_profile_pipes.jpg",
+                "image": "@/public/images/rectangular_profile_pipes.jpg",
                 "description": "Rectangular profile pipes."
               }
             ]
@@ -102,83 +102,83 @@
             "id": 502,
             "title": "Steel Products",
             "url": "/steel/steel_products",
-            "image": "images/steel_products.jpg",
+            "image": "@/public/images/steel_products.jpg",
             "altersubcategories": [
               {
                 "id": 6008,
                 "title": "H-Beam",
                 "url": "/steel/steel_products/h-beam",
-                "image": "images/h_beam.jpg",
+                "image": "@/public/images/h_beam.jpg",
                 "description": "H-Beam."
               },
               {
                 "id": 6009,
                 "title": "Angles",
                 "url": "/steel/steel_products/angles",
-                "image": "images/angles.jpg",
+                "image": "@/public/images/angles.jpg",
                 "description": "Angles."
               },
               {
                 "id": 6010,
                 "title": "Steel Channel",
                 "url": "/steel/steel_products/channel",
-                "image": "images/steel_channel.jpg",
+                "image": "@/public/images/steel_channel.jpg",
                 "description": "Steel channel."
               },
               {
                 "id": 6011,
                 "title": "Steel Armature",
                 "url": "/steel/steel_products/armature",
-                "image": "images/steel_armature.jpg",
+                "image": "@/public/images/steel_armature.jpg",
                 "description": "Steel armature."
               },
               {
                 "id": 6012,
                 "title": "Round Steel Billets",
                 "url": "/steel/steel_products/round_billets",
-                "image": "images/round_steel_billets.jpg",
+                "image": "@/public/images/round_steel_billets.jpg",
                 "description": "Round steel billets."
               },
               {
                 "id": 6013,
                 "title": "All Metal Sheets",
                 "url": "/steel/steel_products/sheets",
-                "image": "images/all_metal_sheets.jpg",
+                "image": "@/public/images/all_metal_sheets.jpg",
                 "description": "All metal sheets."
               },
               {
                 "id": 6014,
                 "title": "Galvanised Wire",
                 "url": "/steel/steel_products/galvanised_wire",
-                "image": "images/galvanised_wire.jpg",
+                "image": "@/public/images/galvanised_wire.jpg",
                 "description": "Galvanised wire."
               },
               {
                 "id": 6015,
                 "title": "Wire Rod",
                 "url": "/steel/steel_products/wire_rod",
-                "image": "images/wire_rod.jpg",
+                "image": "@/public/images/wire_rod.jpg",
                 "description": "Wire rod."
               },
               {
                 "id": 6016,
                 "title": "Flange",
                 "url": "/steel/steel_products/flange",
-                "image": "images/flange.jpg",
+                "image": "@/public/images/flange.jpg",
                 "description": "Flange."
               },
               {
                 "id": 6017,
                 "title": "Flange Sealant",
                 "url": "/steel/steel_products/flange_sealant",
-                "image": "images/flange_sealant.jpg",
+                "image": "@/public/images/flange_sealant.jpg",
                 "description": "Flange sealant."
               },
               {
                 "id": 6018,
                 "title": "Flange Fasteners",
                 "url": "/steel/steel_products/flange_fasteners",
-                "image": "images/flange_fasteners.jpg",
+                "image": "@/public/images/flange_fasteners.jpg",
                 "description": "Flange fasteners."
               }
             ]
@@ -187,34 +187,34 @@
             "id": 503,
             "title": "Connecting Elements",
             "url": "/steel/connecting_elements",
-            "image": "images/connecting_elements.jpg",
+            "image": "@/public/images/connecting_elements.jpg",
             "altersubcategories": [
               {
                 "id": 6019,
                 "title": "90° Steel Bend",
                 "url": "/steel/connecting_elements/bend_90",
-                "image": "images/steel_bend_90.jpg",
+                "image": "@/public/images/steel_bend_90.jpg",
                 "description": "90° steel bend."
               },
               {
                 "id": 6020,
                 "title": "Steel Adapter",
                 "url": "/steel/connecting_elements/adapter",
-                "image": "images/steel_adapter.jpg",
+                "image": "@/public/images/steel_adapter.jpg",
                 "description": "Steel adapter."
               },
               {
                 "id": 6021,
                 "title": "T-Piece",
                 "url": "/steel/connecting_elements/t_piece",
-                "image": "images/t_piece.jpg",
+                "image": "@/public/images/t_piece.jpg",
                 "description": "T-piece."
               },
               {
                 "id": 6022,
                 "title": "Steel Plug",
                 "url": "/steel/connecting_elements/plug",
-                "image": "images/steel_plug.jpg",
+                "image": "@/public/images/steel_plug.jpg",
                 "description": "Steel plug."
               }
             ]
@@ -231,27 +231,27 @@
             "id": 504,
             "title": "Polypropylene Pipes",
             "url": "/plastic/polypropylene_pipes",
-            "image": "images/polypropylene_pipes.jpg",
+            "image": "@/public/images/polypropylene_pipes.jpg",
             "altersubcategories": [
               {
                 "id": 6023,
                 "title": "Fiber Pipes",
                 "url": "/plastic/polypropylene_pipes/fiber",
-                "image": "images/fiber_pipes.jpg",
+                "image": "@/public/images/fiber_pipes.jpg",
                 "description": "Fiber pipes."
               },
               {
                 "id": 6024,
                 "title": "Flexible Plastic Pipes (Rolled) 10, 16 ATM",
                 "url": "/plastic/polypropylene_pipes/flexible",
-                "image": "images/flexible_plastic_pipes.jpg",
+                "image": "@/public/images/flexible_plastic_pipes.jpg",
                 "description": "Flexible plastic pipes (rolled) 10, 16 ATM."
               },
               {
                 "id": 6025,
                 "title": "PPR Pipes, PN 20",
                 "url": "/plastic/polypropylene_pipes/ppr",
-                "image": "images/ppr_pipes.jpg",
+                "image": "@/public/images/ppr_pipes.jpg",
                 "description": "PPR pipes, PN 20."
               }
             ]
@@ -260,27 +260,27 @@
             "id": 505,
             "title": "Sewage Pipes",
             "url": "/plastic/sewage_pipes",
-            "image": "images/sewage_pipes.jpg",
+            "image": "@/public/images/sewage_pipes.jpg",
             "altersubcategories": [
               {
                 "id": 6026,
                 "title": "In-Drain Pipes",
                 "url": "/plastic/sewage_pipes/in_drain",
-                "image": "images/in_drain_pipes.jpg",
+                "image": "@/public/images/in_drain_pipes.jpg",
                 "description": "In-drain pipes."
               },
               {
                 "id": 6027,
                 "title": "Out-Drain Pipes",
                 "url": "/plastic/sewage_pipes/out_drain",
-                "image": "images/out_drain_pipes.jpg",
+                "image": "@/public/images/out_drain_pipes.jpg",
                 "description": "Out-drain pipes."
               },
               {
                 "id": 6028,
                 "title": "Flexi-Drain Pipes",
                 "url": "/plastic/sewage_pipes/flexi_drain",
-                "image": "images/flexi_drain_pipes.jpg",
+                "image": "@/public/images/flexi_drain_pipes.jpg",
                 "description": "Flexi-drain pipes."
               }
             ]
@@ -289,27 +289,27 @@
             "id": 506,
             "title": "Plastic Products",
             "url": "/plastic/products",
-            "image": "images/plastic_products.jpg",
+            "image": "@/public/images/plastic_products.jpg",
             "altersubcategories": [
               {
                 "id": 6029,
                 "title": "Plastic Sheets",
                 "url": "/plastic/products/sheets",
-                "image": "images/plastic_sheets.jpg",
+                "image": "@/public/images/plastic_sheets.jpg",
                 "description": "Plastic sheets."
               },
               {
                 "id": 6030,
                 "title": "Plastic Rods",
                 "url": "/plastic/products/rods",
-                "image": "images/plastic_rods.jpg",
+                "image": "@/public/images/plastic_rods.jpg",
                 "description": "Plastic rods."
               },
               {
                 "id": 6031,
                 "title": "Plastic Profiles",
                 "url": "/plastic/products/profiles",
-                "image": "images/plastic_profiles.jpg",
+                "image": "@/public/images/plastic_profiles.jpg",
                 "description": "Plastic profiles."
               }
             ]
@@ -323,14 +323,14 @@
     "title": "News",
     "url": "/news",
     "description": "Latest news.",
-    "image": "images/news.jpg"
+    "image": "@/public/images/news.jpg"
   },
   "contacts": {
     "id": 5,
     "title": "Contact",
     "url": "/contacts",
     "description": "Contact us.",
-    "image": "images/contact.jpg",
+    "image": "@/public/images/contact.jpg",
     "address": "Xocəsən Street, Baku",
     "phone": "+1234567890",
     "email": "info@example.com",
